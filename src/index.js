@@ -26,7 +26,7 @@ if (!process.env.NODE_ENV || process.env.NODE_ENV === 'production') {
 
 ReactDOM.render(
     <Provider {...stores}>
-    <Router basename="/" history={history}>
+    <Router basename="/react-mobx-starter-project" history={history}>
         <App/>
     </Router >
 </Provider>, document.getElementById('root'));

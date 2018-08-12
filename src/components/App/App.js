@@ -13,9 +13,9 @@ class App extends Component {
       <div className="App">
         <div>
         <span>Current pathname: {location.pathname}</span>
-        <button onClick={() => push('/test')}>Change url</button>
+        <button onClick={() => push('/test')}>Change url to not found</button>
         <button onClick={() => goBack()}>Go Back</button>
-        <button onClick={() => push('/')}>Home</button>
+        <button onClick={() => push('/react-mobx-starter-project')}>Home</button>
         </div>
 
         <Routes />

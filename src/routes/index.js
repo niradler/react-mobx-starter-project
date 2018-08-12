@@ -6,7 +6,7 @@ import NotFound from '../pages/NotFound';
 
 const Routes = () => (
     <Switch>
-      <Route exact path='/' component={Home}/>
+      <Route exact path='/react-mobx-starter-project' component={Home}/>
       <Route component={NotFound} />
     </Switch>
 )
